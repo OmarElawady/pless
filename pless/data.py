@@ -1,21 +1,23 @@
+import os
 
-image_dir = '../images/'
+image_dir = "../images/"
 
-background = 'brown.png'
+background = os.path.join(image_dir, "brown.png")
 
 black = {
-        'knight': 'knightb.png',
-        'king': 'kingb.png',
-        'bishop': 'bishopb.png',
-        'queen': 'queenb.png',
-        'rook': 'rookb.png',
-        'pawn': 'pawnb.png',
-        }
+    "Knight": os.path.join(image_dir, "knightb.png"),
+    "King": os.path.join(image_dir, "kingb.png"),
+    "Bishop": os.path.join(image_dir, "bishopb.png"),
+    "Queen": os.path.join(image_dir, "queenb.png"),
+    "Rook": os.path.join(image_dir, "rookb.png"),
+    "Pawn": os.path.join(image_dir, "pawnb.png"),
+    
+}
 white = {
-        'knight': 'knightw.png',
-        'king': 'kingw.png',
-        'bishop': 'bishopw.png',
-        'queen': 'queenw.png',
-        'rook': 'rookw.png',
-        'pawn': 'pawnw.png',
-        }
+    "Knight": os.path.join(image_dir, "knightw.png"),
+    "King": os.path.join(image_dir, "kingw.png"),
+    "Bishop": os.path.join(image_dir, "bishopw.png"),
+    "Queen": os.path.join(image_dir, "queenw.png"),
+    "Rook": os.path.join(image_dir, "rookw.png"),
+    "Pawn": os.path.join(image_dir, "pawnw.png"),
+}
